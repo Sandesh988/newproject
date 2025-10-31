@@ -51,7 +51,7 @@ class Datatransformation:
 
 
             return preprocessor
-        except CustomException as e:
+        except Exception as e:
             raise CustomException(e,sys)
 
 
